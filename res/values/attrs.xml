@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- StrokedTextView specific attributes. -->
+    <declare-styleable name="StrokedTextView">
+        <!-- The color of the stroke outline -->
+        <attr name="strokeViewColor" format="color" />
+        <!-- The color of the text -->
+        <attr name="strokeViewTextColor" format="color" />
+        <!-- The width of the stroke -->
+        <attr name="strokeViewWidth" format="float" />
+    </declare-styleable>
+</resources>
