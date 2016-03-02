@@ -30,12 +30,12 @@ Add the Jitpack Repository:
 		
 Then, add the following dependency:
 
-  <dependency>
+<dependency>
 	    <groupId>com.github.fcopardo.StrokedTextView-Android</groupId>
 	    <artifactId>StrokedTextView-Android</artifactId>
 	    <version>v1.0.0</version>
 	    <type>aar</type>
-	</dependency>
+  </dependency>
 
 have fun!
 
