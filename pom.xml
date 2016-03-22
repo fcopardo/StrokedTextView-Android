@@ -21,6 +21,10 @@
 			<name>project</name>
 			<url>file:${project.basedir}/projectRepo</url>
 		</repository>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
 	</repositories>
 
 	<dependencies>
@@ -29,6 +33,12 @@
 			<artifactId>android</artifactId>
 			<version>${platform.version}</version>
 			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.github.fcopardo</groupId>
+			<artifactId>FontabletextView</artifactId>
+			<version>v1.0.0</version>
+			<type>aar</type>
 		</dependency>
 	</dependencies>
 

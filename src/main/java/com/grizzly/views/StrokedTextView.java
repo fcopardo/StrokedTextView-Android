@@ -10,13 +10,14 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.TextView;
+import com.grizzly.fontabletextview.FontableTextView;
 
 
 /**
  * This class adds a stroke to the generic TextView allowing the text to stand out better against
  * the background (ie. in the AllApps button).
  */
-public class StrokedTextView extends TextView {
+public class StrokedTextView extends FontableTextView {
     private final Canvas mCanvas = new Canvas();
     private final Paint mPaint = new Paint();
     private Bitmap mCache;
