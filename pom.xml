@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>com.github.fcopardo</groupId>
 			<artifactId>FontabletextView</artifactId>
-			<version>v1.0.0</version>
+			<version>v1.0.1</version>
 			<type>aar</type>
 		</dependency>
 	</dependencies>
